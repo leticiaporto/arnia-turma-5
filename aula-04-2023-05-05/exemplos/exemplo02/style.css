@@ -1,0 +1,10 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse; /* remove espaço entre as células */
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid #dddddd; /* adiciona borda nas células */
+}
+  
