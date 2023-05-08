@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse; /* remove espaço entre as células */
+    width: 100%;
+    text-align: center;
+}
+  
+td, th {
+    border: 1px solid #dddddd; /* adiciona borda nas células */
+}
