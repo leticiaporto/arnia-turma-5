@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    color: orange;
+}
+
+h2 {
+    color: green;
+}
+
+h2 {
+    color: orangered;
+}
+
+h4 {
+    color: greenyellow;
+}
+
+h5 {
+    color: gray;
+}
+
+a {
+    color: brown;
+}
