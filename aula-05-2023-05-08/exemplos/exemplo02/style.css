@@ -1,0 +1,14 @@
+/* O rem está relacionado ao tamanho da fonte do elemento atual */
+.conteudo1 {
+    background-color: red;
+    font-size: 50px;
+    width: 10em;
+    height: 100px;
+}
+
+.conteudo2 {
+    background-color: green;
+    font-size: 50px;
+    width: 20em;
+    height: 100px;
+}

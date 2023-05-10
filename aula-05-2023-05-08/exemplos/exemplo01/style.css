@@ -1,0 +1,22 @@
+.conteudo1 {
+    background-color: red;
+    width: 200px;
+    height: 100px;
+}
+/* 50% da tela */
+.conteudo2 {
+    background-color: green;
+    width: 50%;
+    height: 100px;
+}
+
+.conteudo3 {
+    background-color: blueviolet;
+    width: 50vw;
+    height: 100px;
+}
+/* 50% da largura do pai */
+.conteudo4 {
+    background-color: pink;
+    width: 50%;
+}
