@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Exemplos de backgrounds</title>
+        <style>
+            .image {
+                width: 20%;
+                height: 20%;
+            }
+            .backgroundUrl {
+                background-image: url('https://blog.fecap.br/wp-content/uploads/Fecap-programador.jpg');
+                height: 300px;
+                width: 300px;
+                color: white;
+            }
+            .backgroundLocal {
+                background-image: url("./dev1.jpg");
+                background-repeat: no-repeat;
+                height: 100%;
+                width: 100%;
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <img class="image" src="./dev2.jpg">
+        
+        <div class="backgroundUrl"></div>
+
+        <div class="backgroundLocal">
+            <h1>Texto da segunda div:</h1>
+            <p>Esse aqui é o texto que está contido dentro da segunda div</p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Exemplo de formulário</title>
+    <style>
+      label {
+        margin-bottom: 10px;
+      }
+      input {
+        padding: 5px;
+        border: 1px solid rgb(221, 221, 221);
+        border-radius: 5px;
+        font-size: 16px;
+        margin-bottom: 20px;
+        width: 100%;
+      }
+      input[type="submit"] {
+        background-color: rgb(51, 51, 51);
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 18px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .container {
+        width: 50%;
+        background-color: ghostwhite;
+        margin: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <h1>Formulário de contato</h1>
+        <form>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+    
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+
+          <label for="telefone">Telefone</label>
+          <input type="number" id="telefone" name="telefone" placeholder="Digite seu número de telefone">
+
+          <label for="dataNascimento">Data de Nascimento</label>
+          <input type="date" id="dataNascimento" name="dataNascimento">
+
+          <label for="password">Senha</label>
+          <input type="password" id="senha" name="senha" placeholder="Digite aqui a sua senha">
+    
+          <label for="mensagem">Mensagem:</label>
+          </br>
+          <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem"></textarea>
+    
+          <input type="submit" value="Ir para o próximo passo">
+        </form>
+    </div>
+  </body>
+</html
