@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Display</title>
+
+</head>
+<body>
+    <!-- Oculta da tela -->
+    <div class="none">
+        Display: none
+    </div>
+    <hr>
+    <!-- Links são inline, o block "força" a quebra de linha -->
+    <div>
+        <a class="block" href="https://google.com">Link 1</a>
+        <a href="https://google.com">Link 2</a>
+        <a href="https://google.com">Link 3</a>
+    </div>
+    <hr>
+    <!-- Divs são block, o inline "impede" a quebra de linha, mas não aceita definição de altura e largura -->
+    <div>
+        <div class="conteudo conteudo1 inline">Conteúdo 1</div>
+        <div class="conteudo conteudo2 inline">Conteúdo 2</div>
+        <div class="conteudo conteudo3">Conteúdo 3</div>
+    </div>
+    <hr>
+    <!-- Divs são block, o inline-block "impede" a quebra de linha e aceita definição de altura e largura -->
+    <div>
+        <div class="conteudo conteudo1 inline-block">Conteúdo 1</div>
+        <div class="conteudo conteudo2 inline-block">Conteúdo 2</div>
+        <div class="conteudo conteudo3">Conteúdo 3</div>
+    </div>
+</body>
+</html>
