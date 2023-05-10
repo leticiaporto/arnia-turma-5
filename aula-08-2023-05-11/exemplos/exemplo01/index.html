@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label>Ativo?</label>
+            <div>
+                <input type="radio" name="ativo" id="ativoSim" value="sim">
+                <label for="sim">Sim</label>
+            </div>
+            <div>
+                <input type="radio" name="ativo" id="ativoNao" value="nao">
+                <label for="nao">Não</label>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <input type="checkbox" id="lembrar" name="lembrar"/>
+            <label for="lembrar">Lembrar-me</label>
+        </div>
+        <hr>
+        <div>
+            <label for="foto">Foto</label>
+            <input type="file" id="foto" name="foto"/>
+        </div>
+        <hr>
+        <div>
+            <label for="observacoes">Observações</label><br>
+            <textarea cols="6" rows="4" id="observacoes" name="observacoes"></textarea>
+        </div>
+        <hr>
+        <div>
+            <label for="tipo">Tipo:</label>
+            <select name="tipo" id="tipo">
+                <option value="">Escolha um tipo...</option>
+                <option value="lanche">Lanche</option>
+                <option value="bebida" selected>Bebida</option>
+            </select>
+        </div>
+        <hr>
+        <button type="button">Cancelar</button>
+        <button type="submit">Salvar</button>
+    </form>    
+</body>
+</html>
