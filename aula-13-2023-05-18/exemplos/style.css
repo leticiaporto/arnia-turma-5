@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.text {
+  color:chocolate;
+  font-size: 24px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .text {
+    color:gray;
+    font-size: 32px;
+  }
+
+  .container {
+    display: block;
+  }
+}
