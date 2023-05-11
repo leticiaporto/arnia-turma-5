@@ -1,0 +1,60 @@
+.button {
+  background-color: aquamarine;
+  border-radius: 10px;
+  height: 30px;
+  width: 120px;
+  cursor: pointer;
+  border: none;
+}
+
+.button:hover {
+  background-color: blue;
+  color: white;
+}
+
+.button:focus {
+  border: 1px solid yellow;
+  outline: 1px solid yellow;
+}
+
+.paragraph {
+  color: red;
+}
+
+[href] {
+  text-decoration: none;
+}
+
+[lang |='en'] {
+  color: green;
+}
+
+.email:invalid {
+  border: 1px solid red;
+  outline: 1px solid red;
+}
+
+.email:valid {
+  border: 1px solid green;
+  outline: 1px solid green;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #ababab;
+}
+
+tr:first-child {
+  background-color: rgb(154, 166, 223);
+}
