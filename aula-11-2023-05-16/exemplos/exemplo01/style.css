@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* O container com altura predefinida maior que a altura dos blocos */
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    color: white;
+}
+
+.block1 {
+    background-color: rgb(255, 127, 168);
+}
+
+.block2 {
+    background-color: rgb(43, 226, 137);
+    align-self: center;
+}
+
+.block3 {
+    background-color: rgb(255, 0, 0);
+}
