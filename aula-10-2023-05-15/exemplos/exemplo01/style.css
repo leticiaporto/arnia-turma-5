@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    color: white;
+}
+
+.minorBlock {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+}
+
+.block1 {
+    background-color: aquamarine;
+}
+
+.block2 {
+    background-color: blueviolet;
+}
+
+.block3 {
+    background-color: chartreuse;
+}
+
+.block4 {
+    background-color: gray;
+}
