@@ -1,0 +1,29 @@
+.house {
+    color: blue;
+}
+
+.house i {
+    color: red;
+    font-size: 12px;
+}
+
+.angle i {
+    color: blue;
+    font-size: 300px;
+}
+
+.arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.arial i, .arial a {
+    color: pink;
+}
+
+.verdana {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
