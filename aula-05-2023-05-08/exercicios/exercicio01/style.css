@@ -1,0 +1,10 @@
+p {
+    width: 150px;
+    height: 100px;
+    color: deeppink;
+    border-top: 2px dashed blue;
+    border-left: 2px dotted green;
+    border-bottom: 2px double red;
+    margin-top: 10px;
+    margin-right: 10px;
+}
