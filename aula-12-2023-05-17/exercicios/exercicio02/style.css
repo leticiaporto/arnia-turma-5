@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #3a3a4d;
+}
+
+table {
+    border-spacing: 0;
+}
+
+thead {
+    color: rgb(255, 255, 255);
+    background-color: #0ca2ed;
+}
+
+tbody {
+    color: #212529;
+}
+
+th {
+    padding: 15px;
+}
+
+.first {
+    border-radius: 12px 0px 0px 12px;
+}
+
+.last {
+    border-radius: 0px 12px 12px 0px;
+}
+
+td {
+    padding: 15px;
+}
+
+.bg-gray {
+    background: #f5f5f5;
+}
+
+.bg-light-gray {
+    background: #fcfcfc;
+}
+
+.status {
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.vencida {
+    background-color: #fdcdcd;
+    color: #ff0000;
+}
+
+.quitada {
+    color: #00c247;
+    background-color: #c7ecd4;
+}
+
+.valor {
+    background-color: #f5f5f5;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+button {
+    border-radius: 12px;
+    padding: 9px 10px;
+    background-color: #ffffff;
+    font-size: 0.875rem;
+}
+
+.editar {
+    color: #0ca4ef;
+    border: 1px solid #0ca4ef;
+}
+
+.excluir {
+    color: #ff0000;
+    border: 1px solid #ff0000;
+}
