@@ -1,4 +1,4 @@
-const io = require('../io/io')
+const io = require('../../io/io')
 
 let executar = true
 let quantidade = 0
@@ -14,8 +14,6 @@ while (executar) {
     } else {
         executar = false
     }
-
-    io.write('Teste')
 }
 
 const media = soma / quantidade

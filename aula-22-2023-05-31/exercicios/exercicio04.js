@@ -1,4 +1,4 @@
-const io = require('../io/io')
+const io = require('../../io/io')
 
 io.write('Informe um número natural:')
 const numero = io.readInt() // 10
@@ -12,3 +12,11 @@ while (contador <= numero) {
     contador++
 }
 
+// Solução utilizando "for"
+/*
+for (let i = 1; i <= numero; i++) {
+    if (numero % i === 0) {
+        io.write(i)
+    }
+}
+*/
