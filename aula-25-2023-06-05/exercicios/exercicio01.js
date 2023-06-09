@@ -4,7 +4,7 @@ const processarArray = (numeros) => {
 
     console.log(numeros) //[1, 3, 5]
 
-    const soma = numeros.reduce((numero, acumulador) => acumulador + numero, 0)
+    const soma = numeros.reduce((acumulador, numero) => acumulador + numero, 0)
 
     console.log(soma) //9
 
