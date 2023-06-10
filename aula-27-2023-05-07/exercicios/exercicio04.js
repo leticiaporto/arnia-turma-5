@@ -5,6 +5,7 @@ let alunos = []
 const estaAprovado = (nota) => {
     return nota > 7
 }
+
 for (let i = 0; i < 3; i++) {
     io.write(`Digite o ${i + 1}º nome:`)
     const nome = io.read()
