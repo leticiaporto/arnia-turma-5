@@ -14,7 +14,7 @@ const CPF_REQUIRED = 'Por favor insira o seu CPF'
  * @param {boolean} type Tipo da mensagem, sendo true para sucesso e false para erro
  * @returns {boolean} True ou false a depender do type passado
  */
-function showMessage(input, message, type) {
+const showMessage = (input, message, type) => {
   const msg = input.parentNode.querySelector('small')
   msg.innerText = message
   input.classList.remove('success')
@@ -31,7 +31,7 @@ function showMessage(input, message, type) {
  * @param {string} message String contendo a mensagem que será inserida dentro da tag small 
  * @returns {false}
  */
-function showError(input, message) {
+const showError = (input, message) => {
   return showMessage(input, message, false)
 }
 
@@ -42,7 +42,7 @@ function showError(input, message) {
  * @param {HTMLInputElement} input Elemento HTML Input em que será mostrada a mensagem de sucesso
  * @returns {true}
  */
-function showSuccess(input) {
+const showSuccess = (input) => {
   return showMessage(input, '', true)
 }
 
@@ -53,7 +53,7 @@ function showSuccess(input) {
  * @param {string} message Mensagem de erro caso o elemento esteja vazio
  * @returns 
  */
-function hasValue(input, message) {
+const hasValue = (input, message) => {
   if (input.value.trim() === '') {
     return showError(input, message)
   }
