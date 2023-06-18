@@ -22,3 +22,12 @@
     font-weight: 400;
     color: green;
 }
+
+.normal {
+    color: #2b2b2a;
+}
+
+.autoContraste {
+    background-color: black;
+    color: white;
+}
