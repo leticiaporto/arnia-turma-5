@@ -1,5 +1,6 @@
 const mostrarLivros = (livros) => {
     const tabela = document.querySelector('tbody')
+    tabela.innerHTML = '' //esvaziando o elemento
 
     livros.forEach((livro) => {
         const livroHtml = `
@@ -17,7 +18,6 @@ const mostrarLivros = (livros) => {
 const getLivros = async () => {
     const apiResponse = await fetch('http://localhost:3000/livros')
     const livros = await apiResponse.json()
-    console.log(livros)
     mostrarLivros(livros)
 }
 

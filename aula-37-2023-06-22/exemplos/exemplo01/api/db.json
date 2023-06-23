@@ -1,0 +1,18 @@
+{
+  "noticias": [
+    {
+      "titulo": "Post Arnia",
+      "autor": "Marketing Arnia",
+      "imagem": "https://cdn.izap.com.br/linkcom.com.br/plus/images?src=barbara/unnamed-1.jpg&",
+      "texto": "Escola de Programação",
+      "id": 1
+    },
+    {
+      "titulo": "Post Izap",
+      "autor": "Marketing Izap",
+      "imagem": "https://cdn.izap.com.br/linkcom.com.br/plus/images?src=barbara/unnamed-1.jpg&",
+      "texto": "Fábrica de Software",
+      "id": 2
+    }
+  ]
+}

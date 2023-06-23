@@ -11,6 +11,7 @@ const mostrarLivros = (livros) => {
           <td>${livro.ano}</td>
           <td>
             <button onclick="editarLivro(${livro.id})">Editar</button>
+            <button onclick="excluirLivro(${livro.id})">Excluir</button>
           </td>
       </tr>
     `
@@ -30,6 +31,11 @@ const novoLivro = () => {
 
 const editarLivro = (id) => {
     window.location = `editar.html?id=${id}`
+}
+
+const excluirLivro = async (id) => {
+    await fetch(`http://localhost:3000/livros/${id}`, { method: 'DELETE' })
+    getLivros()
 }
 
 getLivros()
