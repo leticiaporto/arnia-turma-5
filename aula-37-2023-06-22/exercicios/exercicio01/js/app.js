@@ -40,4 +40,11 @@ const getNoticias = async () => {
     renderizarNoticias(noticias)
 }
 
+/* 
+    Função responsável por redirecionar para a página de cadastro
+*/
+const novaNoticia = () => {
+  window.location = "cadastrar.html"
+}
+
 getNoticias()
