@@ -1,0 +1,67 @@
+{
+  "livros": [
+    {
+      "titulo": "32",
+      "autor": {
+        "id": 1,
+        "nome": "Féliz Jarbosa"
+      },
+      "ano": "32",
+      "id": 1
+    },
+    {
+      "titulo": "42432",
+      "autor": {
+        "nome": "Joana Meira",
+        "id": 2
+      },
+      "ano": "423",
+      "id": 5
+    },
+    {
+      "titulo": "32312",
+      "autor": {
+        "id": 3,
+        "nome": "Virgínia"
+      },
+      "ano": "32312",
+      "id": 6
+    },
+    {
+      "titulo": "2121",
+      "autor": {
+        "nome": "Joana Meira",
+        "editora": "FTD",
+        "id": 2
+      },
+      "ano": "12121",
+      "id": 7
+    },
+    {
+      "titulo": "Teste",
+      "autor": {
+        "id": 1,
+        "nome": "Féliz Jarbosa"
+      },
+      "ano": "3456",
+      "id": 8
+    }
+  ],
+  "autores": [
+    {
+      "nome": "Féliz Jarbosa",
+      "editora": "Abril",
+      "id": 1
+    },
+    {
+      "nome": "Joana Meira",
+      "editora": "FTD",
+      "id": 2
+    },
+    {
+      "nome": "Virgínia",
+      "editora": "Globo Livros",
+      "id": 3
+    }
+  ]
+}
