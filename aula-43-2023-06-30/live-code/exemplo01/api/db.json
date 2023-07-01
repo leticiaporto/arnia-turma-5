@@ -1,0 +1,16 @@
+{
+    "pessoas": [
+        {
+            "id": 1,
+            "nome": "Fulano de Tal"
+        },
+        {
+            "id": 2,
+            "nome": "Ciclano"
+        },
+        {
+            "id": 3,
+            "nome": "Beltrano"
+        }
+    ]
+}
