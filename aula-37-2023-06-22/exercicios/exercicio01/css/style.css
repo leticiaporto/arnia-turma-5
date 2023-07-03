@@ -31,6 +31,11 @@
   margin: 20px 10px;
 }
 
+.modal-content {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
 .image img {
   height: 215px;
   cursor: pointer;
@@ -66,6 +71,38 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-autor {
+  color: #939393;
+  font-size: 14px;
+}
+
+.card-buttons {
+  text-align: right;
+}
+
+.remove-button {
+  background: #FFFFFF;
+  border: 1px solid #1E1E1E;  
+  border-radius: 6px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.edit-button {
+  background: #6950A1;
+  border-radius: 6px;
+  color: #FFFFFF;
+  padding: 5px;
+  border: 1px solid #6950A1;  
+  cursor: pointer;
 }
 
 .button {
@@ -139,6 +176,7 @@ section {
 
 .voltar-button a {
   color: white;
+  margin: 0 20px;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
