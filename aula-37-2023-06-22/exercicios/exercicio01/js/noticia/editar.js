@@ -50,7 +50,7 @@ const carregarSelect = async () => {
     autorSelect.options.add(opcaoVazia)
 
     autores.forEach(autor => {
-        const opcao = new Option(autor.nome, autor.id)
+        const opcao = new Option(autor.apelido, autor.id)
         autorSelect.options.add(opcao)
     })
 }
@@ -116,7 +116,7 @@ formulario.addEventListener('submit', async (e) => {
         titulo,
         autor: {
             id: autorObjeto.id,
-            nome: autorObjeto.nome
+            apelido: autorObjeto.apelido
         },
         imagem,
         texto,

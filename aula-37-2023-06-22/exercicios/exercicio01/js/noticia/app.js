@@ -24,7 +24,7 @@ const renderizarNoticias = (noticias) => {
             </div>
           </div>
           <div class="card-footer">
-            <div class="card-autor">${noticia.autor.nome}</div>
+            <div class="card-autor">${noticia.autor.apelido}</div>
             <div class="card-buttons">
               <button class="remove-button" onclick=excluirNoticia(${noticia.id})>Excluir</button>
               <button class="edit-button" onclick=editarNoticia(${noticia.id})>Editar</button>
